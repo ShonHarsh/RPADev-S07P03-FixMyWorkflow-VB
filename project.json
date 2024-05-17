@@ -1,0 +1,59 @@
+{
+  "name": "RPADev-S07P03-FixMyWorkflow-VB",
+  "projectId": "6656f9b5-7c5e-4d02-8c6f-8a6289368f79",
+  "description": "Updating a Library and using the updated Library\r\nUsing the sample library created in the Libraries Video Demo:\r\n\r\nCreate two new components for the library which will:\r\nDownload all invoices – and save the to a sample xlsx file called “All Invoices.xlsx”\r\nDownload invoices of a certain vendor tax ID and save them to a sample xlsx file called “All invoices for” + “.xlsx”. The vendor tax ID must be given via user input.\r\nCreate a workflow that lets the user choose between downloading all work ite",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[24.3.1]",
+    "UiPath.UIAutomation.Activities": "[24.4.2-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d61f87c9-df28-475a-9e9b-224eb6305833",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

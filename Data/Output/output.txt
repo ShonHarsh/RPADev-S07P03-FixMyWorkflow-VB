@@ -1,0 +1,7 @@
+05/16/2024 16:23:49 => [Debug] Debug started for file: Main
+05/16/2024 16:23:49 => [Info] RPADev-S07P03-FixMyWorkflow-VB execution started
+05/16/2024 16:23:51 => [Info] RPADev-S07P03-FixMyWorkflow-VB.Main.Begin;
+05/16/2024 16:23:52 => [Debug] Audit: Using Web App. Browser: Firefox URL: https://www.imdb.com/
+05/16/2024 16:24:01 => [Info] RPADev-S07P03-FixMyWorkflow-VB.Main.Result; Title: Ice Age, Rating: 7.5
+05/16/2024 16:24:01 => [Info] RPADev-S07P03-FixMyWorkflow-VB.Main.End;
+05/16/2024 16:24:02 => [Info] RPADev-S07P03-FixMyWorkflow-VB execution ended in: 00:00:12
